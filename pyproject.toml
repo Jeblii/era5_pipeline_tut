@@ -9,6 +9,7 @@ python = "^3.8"
 msql = "^1.2.2"
 urlopen = "^1.0.0"
 requests = "^2.27.1"
+yarl = "^1.7.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
