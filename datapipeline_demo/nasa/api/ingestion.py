@@ -4,11 +4,9 @@ from typing import Dict, List
 import requests
 
 """
-Retrieve era5 data using the CDS API
+Retrieve era5 data using the NASA rest api
+https://power.larc.nasa.gov/docs/services/api/temporal/monthly/
 """
-
-# https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=overview
-# https://confluence.ecmwf.int/display/CKB/Climate+Data+Store+%28CDS%29+API+Keywords
 
 
 def retrieve_nasa_daily(
